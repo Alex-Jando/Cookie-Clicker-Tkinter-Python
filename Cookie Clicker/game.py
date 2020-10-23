@@ -14,6 +14,8 @@ root.title("Cookie Clicker")
 root.resizable()
 root.resizable(width=False, height=False)
 root.iconphoto(True, PhotoImage(file='icon.png'))
+root.configure(bg="white")
+
 tabControl = ttk.Notebook(root)
 cookieTab = ttk.Frame(tabControl)
 shopTab = ttk.Frame(tabControl)
